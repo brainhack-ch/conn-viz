@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <!--<script src="//d3js.org/queue.v1.min.js"></script>-->
+    <script src="js/threejs/three.min.js"></script>
+    <script src="js/threejs/controls/OrbitControls.js"></script>
+    <script src="js/threejs/renderers/Projector.js"></script>
+    <script src="js/threejs/loaders/OBJLoader.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/three_main.js"></script>
+    <!--<script src="js/d3_main.js"></script>-->
+    <script src="js/utils_loading.js"></script>
+    <script src="js/utils_loading.js"></script>
+    <script src="js/utils_plot.js"></script>
+    <script src="js/utils_misc.js"></script>
+    <script src="js/scatterplot.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Brain Hack Open Geneva 2019</title>
+  </head>
+  <body>
+
+    <!-- Toolbar -->
+    <header>
+      <h1>Brain Hack Open Geneva 2019 - Conn-Viz</h1>
+    </header>
+
+    <!-- Canvas for D3 plot -->
+    <div id="d3_container">
+      <div style="padding: 20px;">
+          X : <select id="selector_x"></select> |
+          Y : <select id="selector_y"></select> | 
+          Node : <select id="selector_node"></select>
+      </div>
+      <div id="d3_plot" style="padding: 10px;"></div>
+    </div>
+
+    <!-- Canvas for three.js 3D -->
+    <div id="three_container"></div>
+  </body>
+</html>
