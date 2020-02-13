@@ -1,5 +1,5 @@
 # conn-viz
-OG 2019 - Project 09: Visualizing brain connectomics using D3.js
+OG 2019 - Project 08: Visualizing brain connectomics using D3.js
 
 ![](./conn-viz.png)
 
